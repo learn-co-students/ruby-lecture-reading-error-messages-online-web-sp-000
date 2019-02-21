@@ -1,3 +1,6 @@
 1 + 1
 
-1 + "is the loneliest number"
+x = "rene"
+b = " hates tf out of ruby"
+c = x+b
+puts c
