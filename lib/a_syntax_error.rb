@@ -1,3 +1,6 @@
-x = 1
+def syntax_error_lab
+  x = 1
+  return x
+end
 
-x = 
+syntax_error_lab
