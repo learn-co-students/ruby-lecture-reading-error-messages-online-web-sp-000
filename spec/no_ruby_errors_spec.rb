@@ -1,4 +1,4 @@
-describe "Not having any errors and being all green" do
+describe  do
 
   context 'NameError' do
     it 'raises a NameError when encountering undefined barewords' do
@@ -12,7 +12,7 @@ describe "Not having any errors and being all green" do
     it 'raises a SyntaxError for nonsensical code' do
       expect{
         load './lib/a_syntax_error.rb'
-      }.to_not raise_error
+      }.to raise_error
     end
   end
 
@@ -28,7 +28,7 @@ describe "Not having any errors and being all green" do
     it 'raises a ZeroDivisionError for dividing by zero' do
       expect{
         load './lib/a_division_by_zero_error.rb'
-      }.to_not raise_error
+      }.to raise_error
     end
   end
 end
